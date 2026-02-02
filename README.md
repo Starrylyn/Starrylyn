@@ -6,7 +6,7 @@ What I build is specific: a voice-first writing workflow that lives inside any i
 
 I also invest in robustness and evaluation: real-world speech (dialects, quiet speech, noise, mixed languages) and benchmarks that reflect natural prompts. GLM-ASR-Nano-2512 has 502,953 all-time downloads on Hugging Face (as of 2026-02-01).
 
-Earlier at Z.ai: NaturalCodeBench (ACL 2024 Findings; [arXiv:2405.04520](https://arxiv.org/abs/2405.04520)). I also co-authored work on GUI agents and evaluation: [AutoGLM (arXiv:2411.00820)](https://arxiv.org/abs/2411.00820), [VisualAgentBench (arXiv:2408.06327)](https://arxiv.org/abs/2408.06327), and the [ChatGLM report (arXiv:2406.12793)](https://arxiv.org/abs/2406.12793).
+Earlier at Z.ai: [NaturalCodeBench](https://arxiv.org/abs/2405.04520) (ACL 2024 Findings). I also co-authored work on GUI agents and evaluation: [AutoGLM](https://arxiv.org/abs/2411.00820), [VisualAgentBench](https://arxiv.org/abs/2408.06327), and the [ChatGLM report](https://arxiv.org/abs/2406.12793).
 
 If you're exploring speech input, on-device inference, agent workflows, or benchmark design, feel free to reach out.
 
