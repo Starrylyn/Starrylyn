@@ -1,4 +1,4 @@
-Hanlin Zhao (Zhao Hanlin)
+# Hanlin Zhao (Zhao Hanlin)
 
 I lead Z.ai AutoTyper (Zhipu AI Input Method) and the GLM-ASR / GLM-ASR-Nano speech model lines.
 What I build is specific: voice-first writing that lives inside any input field.
