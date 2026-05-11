@@ -1,13 +1,34 @@
 # Hanlin Zhao (Zhao Hanlin)
 
-I lead Z.ai [AutoTyper](https://autoglm.zhipuai.cn/autotyper/) (Zhipu AI Input Method) and the [GLM-ASR](https://github.com/zai-org/GLM-ASR) / [GLM-ASR-Nano](https://huggingface.co/zai-org/GLM-ASR-Nano-2512) speech model lines.
+I build agent products that meet users at the point of action: the input field, the desktop app, the browser, and the workflow they already use.
 
-What I build is specific: a voice-first writing workflow that lives inside any input field. Users can speak to draft, edit in-place (rewrite, translation, tone/style), and hand off tasks to agent execution (planning + tool-calling) when needed. The most important part is writeback: results return to the same context the user is writing, not to a separate chat window.
+At Z.ai, I lead [AutoClaw](https://autoglm.zhipuai.cn/autoclaw/), [AutoTyper](https://docs.bigmodel.cn/cn/coding-plan/benefits/autotyper) (Zhipu AI Input Method), and the [GLM-ASR](https://github.com/zai-org/GLM-ASR) / [GLM-ASR-Nano](https://huggingface.co/zai-org/GLM-ASR-Nano-2512) speech model lines.
 
-I also invest in robustness and evaluation: real-world speech (dialects, quiet speech, noise, mixed languages) and benchmarks that reflect natural prompts. GLM-ASR-Nano-2512 has 502,953 all-time downloads on Hugging Face (as of 2026-02-01).
+The product thesis behind them is the same: the most useful agents are not separate chat rooms. They capture intent, use context, plan, call tools, execute across real software, and write results back into the user's working surface.
 
-Earlier at Z.ai: [NaturalCodeBench](https://arxiv.org/abs/2405.04520) (ACL 2024 Findings). I also co-authored work on GUI agents and evaluation: [AutoGLM](https://arxiv.org/abs/2411.00820), [VisualAgentBench](https://arxiv.org/abs/2408.06327), and the [ChatGLM report](https://arxiv.org/abs/2406.12793).
+## What I Work On
 
-If you're exploring speech input, on-device inference, agent workflows, or benchmark design, feel free to reach out.
+- Desktop agents: AutoClaw, local/cloud runtime UX, model routing, tool and MCP integrations, memory, browser control, and multi-device continuity.
+- Voice-first writing: AutoTyper, speech-to-text, in-place LLM editing, translation, rewriting, tone/style control, and structured writeback.
+- Agent reliability: gateway behavior, protocol adapters, attachment/image handling, failure triage, and scoped shipping from logs to fixes.
+- Evaluation: benchmarks and feedback loops that reflect natural user prompts, real speech, and real product workflows.
+
+## Selected Work
+
+- [AutoClaw](https://autoglm.zhipuai.cn/autoclaw/) - a desktop AI agent product that turns a user's computer into an agent execution environment.
+- [AutoTyper](https://docs.bigmodel.cn/cn/coding-plan/benefits/autotyper) - voice-first writing and agent execution inside everyday input fields.
+- [GLM-ASR](https://github.com/zai-org/GLM-ASR) / [GLM-ASR-Nano](https://huggingface.co/zai-org/GLM-ASR-Nano-2512) - robust speech recognition for real-world Chinese and multilingual speech; GLM-ASR-Nano has crossed 1M all-time downloads on Hugging Face.
+- [NaturalCodeBench](https://aclanthology.org/2024.findings-acl.471/) - ACL 2024 Findings, evaluating code generation on natural user prompts.
+- [AutoGLM](https://arxiv.org/abs/2411.00820) and [VisualAgentBench](https://arxiv.org/abs/2408.06327) - GUI agents and agent evaluation.
+- [ChatGLM report](https://arxiv.org/abs/2406.12793) - model development and evaluation work.
+
+## How I Think About AI Products
+
+- Put AI on high-frequency surfaces instead of asking users to move every task into a chat window.
+- Treat writeback as a core product capability: the answer should land where the work continues.
+- Keep agent UX honest about identity, resources, routing, and execution state.
+- Use logs, edge cases, user feedback, and benchmarks as product inputs, not just debugging artifacts.
+
+Open to conversations about desktop agents, speech input, on-device ASR, GUI agents, memory/MCP workflows, benchmark design, and turning agent demos into products people use every day.
 
 :mailbox: hanlin9908@gmail.com · :mortar_board: [Google Scholar](https://scholar.google.com/citations?user=2sVac3EAAAAJ&hl=zh-CN)
