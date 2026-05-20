@@ -1,0 +1,169 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="340" viewBox="0 0 820 340" font-family="'JetBrains Mono', ui-monospace, monospace">
+  <defs>
+    <linearGradient id="bgg10" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0f1e"/><stop offset="1" stop-color="#150b1f"/>
+    </linearGradient>
+    <pattern id="grid10" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#1f2440" stroke-width=".5"/>
+    </pattern>
+    <pattern id="scan10" width="3" height="3" patternUnits="userSpaceOnUse">
+      <rect width="3" height="1" fill="#000" opacity=".18"/>
+    </pattern>
+    <filter id="glow10"><feGaussianBlur stdDeviation="1.6"/><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="glowBig10"><feGaussianBlur stdDeviation="3"/><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="noise" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch" seed="3"/>
+      <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1   0 0 0 .35 0"/>
+    </filter>
+    <clipPath id="tear1"><rect x="0" y="64"  width="820" height="22"/></clipPath>
+    <clipPath id="tear2"><rect x="0" y="128" width="820" height="14"/></clipPath>
+    <clipPath id="tear3"><rect x="0" y="180" width="820" height="28"/></clipPath>
+    <clipPath id="tear4"><rect x="0" y="232" width="820" height="18"/></clipPath>
+    <clipPath id="tear5"><rect x="0" y="280" width="820" height="20"/></clipPath>
+    <style>
+      .cy{fill:#00f0ff}.mg{fill:#ff3df0}.am{fill:#ffce4a}.gr{fill:#7af5b8}.dim{fill:#5a6087}
+      .lbl{font-size:9px;letter-spacing:.22em;text-transform:uppercase}
+      .mono{font-size:11px}.big{font-weight:800;letter-spacing:-.02em}
+    </style>
+    <g id="content10">
+      <rect width="820" height="340" fill="url(#bgg10)"/>
+      <rect width="820" height="340" fill="url(#grid10)"/>
+      <g stroke="#00f0ff" stroke-width="1.5" fill="none" opacity=".9">
+        <path d="M 14 14 L 14 38 M 14 14 L 38 14"/>
+        <path d="M 806 14 L 806 38 M 806 14 L 782 14"/>
+        <path d="M 14 326 L 14 302 M 14 326 L 38 326"/>
+        <path d="M 806 326 L 806 302 M 806 326 L 782 326"/>
+      </g>
+      <rect x="32" y="28" width="756" height="22" fill="#0e1228" stroke="#00f0ff" opacity=".9"/>
+      <text x="42" y="44" class="lbl cy">▰ tokscale · realtime telemetry · session 0x1442.20260520</text>
+      <g>
+        <circle cx="772" cy="39" r="5" fill="#7af5b8" opacity=".3" filter="url(#glowBig10)">
+          <animate attributeName="r" values="3.5;7;3.5" dur="2.2s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values=".15;.45;.15" dur="2.2s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="772" cy="39" r="3" fill="#7af5b8" filter="url(#glow10)"/>
+      </g>
+      <text x="762" y="43" class="lbl gr" text-anchor="end">live</text>
+      <g transform="translate(48,72)">
+        <text class="lbl mg">primary throughput</text>
+        <text font-size="64" class="big cy" y="60" filter="url(#glowBig10)">15.09B</text>
+        <text class="lbl dim" y="84">total tokens · cache 90.4%</text>
+        <g transform="translate(0,104)" class="mono">
+          <text class="dim">30D</text><text x="36" class="am">4.37B · 33.2K msgs</text>
+          <text x="240" class="dim">7D</text><text x="266" class="am">1.58B · 10.4K msgs</text>
+        </g>
+        <g transform="translate(0,140)">
+          <text class="lbl mg" y="0">recent activity · 14d</text>
+          <g transform="translate(0,10)" fill="#00f0ff">
+        <rect x="0" y="11" width="10" height="15" opacity="0.67"/>
+        <rect x="14" y="16" width="10" height="10" opacity="0.57"/>
+        <rect x="28" y="22" width="10" height="4" opacity="0.46"/>
+        <rect x="42" y="25" width="10" height="1" opacity="0.40"/>
+        <rect x="56" y="20" width="10" height="6" opacity="0.51"/>
+        <rect x="70" y="17" width="10" height="9" opacity="0.55"/>
+        <rect x="84" y="4" width="10" height="22" opacity="0.78"/>
+        <rect x="98" y="0" width="10" height="26" fill="#ff3df0" filter="url(#glow10)"/>
+        <rect x="112" y="18" width="10" height="8" opacity="0.54"/>
+        <rect x="126" y="25" width="10" height="1" opacity="0.41"/>
+        <rect x="140" y="16" width="10" height="10" opacity="0.57"/>
+        <rect x="154" y="10" width="10" height="16" opacity="0.67"/>
+        <rect x="168" y="6" width="10" height="20" opacity="0.75"/>
+        <rect x="182" y="22" width="10" height="4" opacity="0.47"/>
+          </g>
+          <text class="lbl dim" y="56">since 2025-09-17 · 245d · peak 05/14 385.9M</text>
+        </g>
+      </g>
+      <line x1="412" y1="72" x2="412" y2="300" stroke="#1f2440"/>
+      <g transform="translate(440,72)">
+        <text class="lbl mg">agents engaged · 4</text>
+        <g transform="translate(0,16)" class="mono">
+        <g transform="translate(0,0)"><rect width="6" height="10" class="cy"/><text x="14" y="9" class="cy">opencode</text><text x="340" y="9" class="dim" text-anchor="end">47% · 81.0K msgs</text></g>
+        <g transform="translate(0,18)"><rect width="6" height="10" class="mg"/><text x="14" y="9" class="mg">codex</text><text x="340" y="9" class="dim" text-anchor="end">41% · 70.2K msgs</text></g>
+        <g transform="translate(0,36)"><rect width="6" height="10" class="gr"/><text x="14" y="9" class="gr">claude</text><text x="340" y="9" class="dim" text-anchor="end">11% · 18.2K msgs</text></g>
+        <g transform="translate(0,54)"><rect width="6" height="10" class="am"/><text x="14" y="9" class="am">openclaw</text><text x="340" y="9" class="dim" text-anchor="end">2% · 3.0K msgs</text></g>
+        </g>
+        <line x1="0" y1="148" x2="320" y2="148" stroke="#1f2440"/>
+        <g transform="translate(0,168)">
+          <text class="lbl mg">top model · est. cost</text>
+          <g transform="translate(0,16)" class="mono">
+          <g transform="translate(0,0)"><text class="cy">openrouter:claude-opu…</text><text x="340" class="am" text-anchor="end">$4.2K</text></g>
+          <g transform="translate(0,16)"><text class="cy">gpt-5.5</text><text x="340" class="am" text-anchor="end">$1.9K</text></g>
+          <g transform="translate(0,32)"><text class="cy">claude-opus-4-7</text><text x="340" class="am" text-anchor="end">$1.6K</text></g>
+          <g transform="translate(0,48)"><text class="cy">claude-opus-4-6</text><text x="340" class="am" text-anchor="end">$1.2K</text></g>
+          </g>
+          <text class="lbl dim" y="92">litellm bench · ≠ actual bill · updated 2026-05-20 00:00 CST</text>
+        </g>
+      </g>
+    </g>
+  </defs>
+  <g>
+    <animateTransform attributeName="transform" type="translate"
+      values="0,0; -3,0; 4,1; 0,0; 3,0; -4,-1; 0,0; -3,1; 4,0; 0,0"
+      keyTimes="0;0.18;0.20;0.23;0.45;0.47;0.50;0.75;0.77;1"
+      calcMode="discrete" dur="6s" repeatCount="indefinite"/>
+    <g opacity="0" style="mix-blend-mode:screen">
+      <animate attributeName="opacity"
+        values="0;0.6;0.4;0;0.65;0.45;0;0.55;0.4;0"
+        keyTimes="0;0.18;0.20;0.23;0.45;0.47;0.50;0.75;0.77;1"
+        calcMode="discrete" dur="6s" repeatCount="indefinite"/>
+      <g transform="translate(7,0)">
+        <use href="#content10" fill="#ff3050"/>
+        <rect width="820" height="340" fill="#ff3050" opacity=".15" style="mix-blend-mode:multiply"/>
+      </g>
+    </g>
+    <g opacity="0" style="mix-blend-mode:screen">
+      <animate attributeName="opacity"
+        values="0;0.6;0.4;0;0.65;0.45;0;0.55;0.4;0"
+        keyTimes="0;0.18;0.20;0.23;0.45;0.47;0.50;0.75;0.77;1"
+        calcMode="discrete" dur="6s" repeatCount="indefinite"/>
+      <g transform="translate(-7,0)">
+        <use href="#content10" fill="#00f0ff"/>
+        <rect width="820" height="340" fill="#00f0ff" opacity=".15" style="mix-blend-mode:multiply"/>
+      </g>
+    </g>
+    <use href="#content10"/>
+    <g clip-path="url(#tear1)"><use href="#content10"/>
+      <animateTransform attributeName="transform" type="translate"
+        values="0,0; 26,0; -20,0; 0,0; -30,0; 18,0; 0,0; 22,0; -28,0; 0,0"
+        keyTimes="0;0.18;0.20;0.23;0.45;0.47;0.50;0.75;0.77;1"
+        calcMode="discrete" dur="6s" repeatCount="indefinite"/>
+    </g>
+    <g clip-path="url(#tear2)"><use href="#content10"/>
+      <animateTransform attributeName="transform" type="translate"
+        values="0,0; -28,0; 20,0; 0,0; 22,0; -32,0; 0,0; -18,0; 25,0; 0,0"
+        keyTimes="0;0.18;0.20;0.23;0.45;0.47;0.50;0.75;0.77;1"
+        calcMode="discrete" dur="6s" repeatCount="indefinite"/>
+    </g>
+    <g clip-path="url(#tear3)"><use href="#content10"/>
+      <animateTransform attributeName="transform" type="translate"
+        values="0,0; 18,0; -10,0; 0,0; -22,0; 14,0; 0,0; 16,0; -25,0; 0,0"
+        keyTimes="0;0.18;0.20;0.23;0.45;0.47;0.50;0.75;0.77;1"
+        calcMode="discrete" dur="6s" repeatCount="indefinite"/>
+    </g>
+    <g clip-path="url(#tear4)"><use href="#content10"/>
+      <animateTransform attributeName="transform" type="translate"
+        values="0,0; -14,0; 18,0; 0,0; 16,0; -25,0; 0,0; 10,0; -18,0; 0,0"
+        keyTimes="0;0.18;0.20;0.23;0.45;0.47;0.50;0.75;0.77;1"
+        calcMode="discrete" dur="6s" repeatCount="indefinite"/>
+    </g>
+    <g clip-path="url(#tear5)"><use href="#content10"/>
+      <animateTransform attributeName="transform" type="translate"
+        values="0,0; 16,0; -12,0; 0,0; -20,0; 18,0; 0,0; 14,0; -22,0; 0,0"
+        keyTimes="0;0.18;0.20;0.23;0.45;0.47;0.50;0.75;0.77;1"
+        calcMode="discrete" dur="6s" repeatCount="indefinite"/>
+    </g>
+    <rect width="820" height="340" filter="url(#noise)" opacity="0" style="mix-blend-mode:screen">
+      <animate attributeName="opacity"
+        values="0;0.45;0.3;0;0.4;0.35;0;0.4;0.3;0"
+        keyTimes="0;0.18;0.20;0.23;0.45;0.47;0.50;0.75;0.77;1"
+        calcMode="discrete" dur="6s" repeatCount="indefinite"/>
+    </rect>
+    <rect width="820" height="340" filter="url(#noise)" opacity="0" style="mix-blend-mode:screen">
+      <animate attributeName="opacity"
+        values="0;0.15;0;0;0.15;0;0"
+        keyTimes="0;0.35;0.36;0.37;0.63;0.64;1"
+        calcMode="discrete" dur="6s" repeatCount="indefinite"/>
+    </rect>
+    <rect width="820" height="340" fill="url(#scan10)" pointer-events="none"/>
+  </g>
+</svg>

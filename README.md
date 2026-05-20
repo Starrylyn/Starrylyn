@@ -32,3 +32,11 @@ The product thesis behind them is the same: the most useful agents are not separ
 Open to conversations about desktop agents, speech input, on-device ASR, GUI agents, memory/MCP workflows, benchmark design, and turning agent demos into products people use every day.
 
 :mailbox: hanlin9908@gmail.com · :mortar_board: [Google Scholar](https://scholar.google.com/citations?user=2sVac3EAAAAJ&hl=zh-CN)
+
+---
+
+### Vibe Coding
+
+![Vibe Coding](./assets/vibe-coding.svg)
+
+<sub>Auto-tracked across Claude Code, Codex, OpenCode, and the OpenClaw family via [tokscale](https://github.com/junhoyeo/tokscale) plus a small local collector. Cost figure is LiteLLM bench pricing, not an actual bill.</sub>
