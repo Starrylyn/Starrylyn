@@ -35,7 +35,7 @@
         <path d="M 806 326 L 806 302 M 806 326 L 782 326"/>
       </g>
       <rect x="32" y="28" width="756" height="22" fill="#0e1228" stroke="#00f0ff" opacity=".9"/>
-      <text x="42" y="44" class="lbl cy">▰ tokscale · realtime telemetry · session 0x1101.20260611</text>
+      <text x="42" y="44" class="lbl cy">▰ tokscale · realtime telemetry · session 0x1101.20260612</text>
       <g>
         <circle cx="772" cy="39" r="5" fill="#7af5b8" opacity=".3" filter="url(#glowBig10)">
           <animate attributeName="r" values="3.5;7;3.5" dur="2.2s" repeatCount="indefinite"/>
@@ -46,41 +46,41 @@
       <text x="762" y="43" class="lbl gr" text-anchor="end">live</text>
       <g transform="translate(48,72)">
         <text class="lbl mg">primary throughput</text>
-        <text font-size="64" class="big cy" y="60" filter="url(#glowBig10)">20.97B</text>
-        <text class="lbl dim" y="84">total tokens · cache 91.3%</text>
+        <text font-size="64" class="big cy" y="60" filter="url(#glowBig10)">21.91B</text>
+        <text class="lbl dim" y="84">total tokens · cache 91.4%</text>
         <g transform="translate(0,104)" class="mono">
-          <text class="dim">30D</text><text x="36" class="am">9.05B · 56.1K msgs</text>
-          <text x="240" class="dim">7D</text><text x="266" class="am">3.90B · 19.9K msgs</text>
+          <text class="dim">30D</text><text x="36" class="am">9.86B · 61.2K msgs</text>
+          <text x="240" class="dim">7D</text><text x="266" class="am">4.71B · 24.9K msgs</text>
         </g>
         <g transform="translate(0,140)">
           <text class="lbl mg" y="0">recent activity · 14d</text>
           <g transform="translate(0,10)" fill="#00f0ff">
-        <rect x="0" y="15" width="10" height="11" opacity="0.59"/>
-        <rect x="14" y="20" width="10" height="6" opacity="0.50"/>
-        <rect x="28" y="22" width="10" height="4" opacity="0.46"/>
-        <rect x="42" y="19" width="10" height="7" opacity="0.52"/>
-        <rect x="56" y="16" width="10" height="10" opacity="0.58"/>
-        <rect x="70" y="21" width="10" height="5" opacity="0.48"/>
-        <rect x="84" y="22" width="10" height="4" opacity="0.47"/>
-        <rect x="98" y="10" width="10" height="16" opacity="0.68"/>
-        <rect x="112" y="14" width="10" height="12" opacity="0.61"/>
-        <rect x="126" y="0" width="10" height="26" fill="#ff3df0" filter="url(#glow10)"/>
-        <rect x="140" y="2" width="10" height="24" opacity="0.81"/>
-        <rect x="154" y="14" width="10" height="12" opacity="0.61"/>
-        <rect x="168" y="4" width="10" height="22" opacity="0.78"/>
-        <rect x="182" y="21" width="10" height="5" opacity="0.48"/>
+        <rect x="0" y="21" width="10" height="5" opacity="0.49"/>
+        <rect x="14" y="23" width="10" height="3" opacity="0.46"/>
+        <rect x="28" y="20" width="10" height="6" opacity="0.51"/>
+        <rect x="42" y="16" width="10" height="10" opacity="0.57"/>
+        <rect x="56" y="22" width="10" height="4" opacity="0.47"/>
+        <rect x="70" y="22" width="10" height="4" opacity="0.46"/>
+        <rect x="84" y="11" width="10" height="15" opacity="0.66"/>
+        <rect x="98" y="15" width="10" height="11" opacity="0.59"/>
+        <rect x="112" y="2" width="10" height="24" opacity="0.82"/>
+        <rect x="126" y="4" width="10" height="22" opacity="0.78"/>
+        <rect x="140" y="15" width="10" height="11" opacity="0.59"/>
+        <rect x="154" y="6" width="10" height="20" opacity="0.75"/>
+        <rect x="168" y="0" width="10" height="26" fill="#ff3df0" filter="url(#glow10)"/>
+        <rect x="182" y="21" width="10" height="5" opacity="0.49"/>
           </g>
-          <text class="lbl dim" y="56">since 2025-09-17 · 267d · peak 06/07 843.2M</text>
+          <text class="lbl dim" y="56">since 2025-09-17 · 268d · peak 06/11 910.3M</text>
         </g>
       </g>
       <line x1="412" y1="72" x2="412" y2="300" stroke="#1f2440"/>
       <g transform="translate(440,72)">
         <text class="lbl mg">agents engaged · 4</text>
         <g transform="translate(0,16)" class="mono">
-        <g transform="translate(0,0)"><rect width="6" height="10" class="cy"/><text x="14" y="9" class="cy">opencode</text><text x="340" y="9" class="dim" text-anchor="end">54% · 109.3K msgs</text></g>
-        <g transform="translate(0,18)"><rect width="6" height="10" class="mg"/><text x="14" y="9" class="mg">codex</text><text x="340" y="9" class="dim" text-anchor="end">39% · 79.2K msgs</text></g>
-        <g transform="translate(0,36)"><rect width="6" height="10" class="gr"/><text x="14" y="9" class="gr">claude</text><text x="340" y="9" class="dim" text-anchor="end">6% · 11.5K msgs</text></g>
-        <g transform="translate(0,54)"><rect width="6" height="10" class="am"/><text x="14" y="9" class="am">openclaw</text><text x="340" y="9" class="dim" text-anchor="end">2% · 3.8K msgs</text></g>
+        <g transform="translate(0,0)"><rect width="6" height="10" class="cy"/><text x="14" y="9" class="cy">opencode</text><text x="340" y="9" class="dim" text-anchor="end">52% · 109.4K msgs</text></g>
+        <g transform="translate(0,18)"><rect width="6" height="10" class="mg"/><text x="14" y="9" class="mg">codex</text><text x="340" y="9" class="dim" text-anchor="end">38% · 79.2K msgs</text></g>
+        <g transform="translate(0,36)"><rect width="6" height="10" class="gr"/><text x="14" y="9" class="gr">claude</text><text x="340" y="9" class="dim" text-anchor="end">8% · 17.3K msgs</text></g>
+        <g transform="translate(0,54)"><rect width="6" height="10" class="am"/><text x="14" y="9" class="am">openclaw</text><text x="340" y="9" class="dim" text-anchor="end">2% · 3.9K msgs</text></g>
         </g>
         <line x1="0" y1="148" x2="320" y2="148" stroke="#1f2440"/>
         <g transform="translate(0,168)">
@@ -89,9 +89,9 @@
           <g transform="translate(0,0)"><text class="cy">gpt-5.5</text><text x="340" class="am" text-anchor="end">$6.2K</text></g>
           <g transform="translate(0,16)"><text class="cy">openrouter:claude-opu…</text><text x="340" class="am" text-anchor="end">$4.2K</text></g>
           <g transform="translate(0,32)"><text class="cy">claude-opus-4-8-cc</text><text x="340" class="am" text-anchor="end">$2.7K</text></g>
-          <g transform="translate(0,48)"><text class="cy">claude-fable-5</text><text x="340" class="am" text-anchor="end">$1.0K</text></g>
+          <g transform="translate(0,48)"><text class="cy">claude-fable-5</text><text x="340" class="am" text-anchor="end">$2.4K</text></g>
           </g>
-          <text class="lbl dim" y="92">litellm bench · ≠ actual bill · updated 2026-06-11 00:00 CST</text>
+          <text class="lbl dim" y="92">litellm bench · ≠ actual bill · updated 2026-06-12 00:00 CST</text>
         </g>
       </g>
     </g>
