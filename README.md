@@ -17,7 +17,13 @@ At Z.ai, I lead [AutoClaw](https://autoglm.zhipuai.cn/autoclaw/), [AutoTyper](ht
 
 Running four coding agents in parallel as daily drivers — OpenCode for builds, Codex for review, Claude Code for design, OpenClaw as the experiment harness — and shipping AutoClaw kernel updates against the logs from all four.
 
-[![Starrylyn's Tokscale Stats](https://tokscale.ai/api/embed/Starrylyn/svg?template=orbit&color=pink&theme=dark&sort=tokens&tokens=compact&cost=compact&rank=percent&graph=1)](https://tokscale.ai/u/Starrylyn)
+<p align="center">
+  <a href="https://tokscale.ai/u/Starrylyn">
+    <img src="https://tokscale.ai/api/embed/Starrylyn/svg?template=orbit&amp;color=pink&amp;theme=dark&amp;sort=tokens&amp;tokens=compact&amp;cost=compact&amp;rank=percent" alt="Starrylyn's Tokscale Stats" width="560" />
+  </a>
+  <br />
+  <sub><a href="https://tokscale.ai/u/Starrylyn">View interactive usage →</a></sub>
+</p>
 
 <sub>Auto-tracked across Claude Code, Codex, OpenCode, and the OpenClaw family via [tokscale](https://github.com/junhoyeo/tokscale) plus a small local collector. Cost figure is LiteLLM bench pricing, not an actual bill.</sub>
 
