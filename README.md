@@ -15,11 +15,11 @@ At Z.ai, I lead [AutoClaw](https://autoglm.zhipuai.cn/autoclaw/), [AutoTyper](ht
 
 ## Currently
 
-Running four coding agents in parallel as daily drivers — OpenCode for builds, Codex for review, Claude Code for design, OpenClaw as the experiment harness — and shipping AutoClaw kernel updates against the logs from all four.
+Running coding agents in parallel as daily drivers — Pi and OpenCode for builds, Codex for review, Claude Code for design, Cursor on the desktop — and shipping AutoClaw kernel updates against the logs.
 
 ![Vibe Coding](./assets/vibe-coding.svg)
 
-<sub>Auto-tracked across Claude Code, Codex, OpenCode, and the OpenClaw family via [tokscale](https://github.com/junhoyeo/tokscale) plus a small local collector. Cost figure is LiteLLM bench pricing, not an actual bill.</sub>
+<sub>Auto-tracked across Claude Code, Codex, OpenCode, Cursor, Pi, and the OpenClaw family via [tokscale](https://github.com/junhoyeo/tokscale). Live stats: [tokscale.ai/u/Starrylyn](https://tokscale.ai/u/Starrylyn). Cost figure is LiteLLM bench pricing, not an actual bill.</sub>
 
 ---
 
